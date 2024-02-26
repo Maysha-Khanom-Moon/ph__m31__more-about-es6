@@ -9,6 +9,8 @@ const total = nums.reduce((previous, current) => previous + current, 0)
 /**
  * ==> initial value of previous: 1st element
  * ==> then, current value will be: 2nd element
+ * ==> current interate the elements
+ * ==> first store the previous return and after completing the interation return final value of first to subtract
  */
 const subtract = nums.reduce((first, current) => current - 2);
 
