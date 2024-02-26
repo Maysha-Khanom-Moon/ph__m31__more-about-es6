@@ -25,6 +25,8 @@ const user = {
         city: 'Dhaka'
     }
 }
+
+// it's chain
 console.log(user.address.street.second);
 
 
